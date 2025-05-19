@@ -42,7 +42,7 @@ const createPage=(wixtriks)=>{
   frame.style="border:none;margin:0;z-index:9999999;padding:0;overflow:hidden;position:fixed;width:100%;height:100%;top:0px;bottom:0px;right:0px;";
   const URLl=new URL(url.value);
   if(wixtriks){
-    URLl.searchParams.set(".wix.com",".wix.com");
+    URLl.searchParams.set("",".bbc.com");
   }
   frame.src=URLl.href;
   return frame;
